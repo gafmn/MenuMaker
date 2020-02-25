@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class Order {
     private Integer OrderID;
-    private java.util.ArrayList<MenuItem> items;
+    private ArrayList<MenuItem> items;
     private String created_at;
 
     Order() {
