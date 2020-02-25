@@ -6,6 +6,7 @@ public class BurgerBuilder extends MenuItemBuilder {
     private String salad;
     private String sauce;
 
+    @Override
     public Burger createProduct() {
         return new Burger(this);
     }
@@ -17,6 +18,10 @@ public class BurgerBuilder extends MenuItemBuilder {
 
     public void addMeat(String meat) {
         this.meat = meat;
+    }
+
+    public void addSize(String size) {
+        this.size = size;
     }
 
     public void addSalad(String salad) {

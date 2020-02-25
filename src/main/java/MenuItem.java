@@ -11,4 +11,8 @@ public abstract class MenuItem {
     public String toString() {
         return String.format("%d\t%s\t%f\t%s", itemId, name, cost, description);
     }
+
+    public Double getCost() {
+        return this.cost;
+    }
 }

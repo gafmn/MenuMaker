@@ -3,6 +3,7 @@ public class ColdDrinkBuilder extends MenuItemBuilder {
     private String drink;
     private String flavour;
 
+    @Override
     public ColdDrink createProduct() {
         return new ColdDrink(this);
     }
@@ -11,7 +12,7 @@ public class ColdDrinkBuilder extends MenuItemBuilder {
         return size;
     }
 
-    public void setSize(String size) {
+    public void addSize(String size) {
         this.size = size;
     }
 
