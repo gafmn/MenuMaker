@@ -3,7 +3,13 @@ import java.util.ArrayList;
 public class Menu {
     private ArrayList<MenuItem> items;
 
-    public void showItems() {
-        // print Items list
+    @Override
+    public String toString() {
+        StringBuilder items = new StringBuilder();
+        items.append("Menu:\n");
+        for (MenuItem item : this.items) {
+            items.append(item.toString());
+        }
+        return items.toString();
     }
 }

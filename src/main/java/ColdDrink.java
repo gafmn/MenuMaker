@@ -8,4 +8,16 @@ public class ColdDrink extends MenuItem {
         this.drink = drinkBuilder.getDrink();
         this.flavour = drinkBuilder.getFlavour();
     }
+
+    public String getSize() {
+        return size;
+    }
+
+    public String getDrink() {
+        return drink;
+    }
+
+    public String getFlavour() {
+        return flavour;
+    }
 }

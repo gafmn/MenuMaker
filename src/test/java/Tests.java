@@ -19,6 +19,10 @@ public class Tests {
 
         Burger burger = bb.createProduct();
 
+        assertEquals(burger.getBun(), bun);
+        assertEquals(burger.getCheese(), cheese);
+        assertEquals(burger.getMeat(), meat);
+
     }
 
 }
