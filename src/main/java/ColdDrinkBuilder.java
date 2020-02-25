@@ -1,4 +1,4 @@
-public class ColdDrinkBuilder extends MenuItemBuilder{
+public class ColdDrinkBuilder extends MenuItemBuilder {
     private String size;
     private String drink;
     private String flavour;
