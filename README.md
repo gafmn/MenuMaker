@@ -1,8 +1,8 @@
-# SSD Assignment 2
+# SSD Assignment 3
 
 Innopolis University, 2020  
 Software Systems Design  
-Assignment 2
+Assignment 3
 
 
 ## Team
