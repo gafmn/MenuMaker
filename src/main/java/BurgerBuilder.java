@@ -1,4 +1,4 @@
-public class BurgerBuilder extends MenuItemBuilder{
+public class BurgerBuilder extends MenuItemBuilder {
     private String size;
     private String bun;
     private String meat;
@@ -11,19 +11,19 @@ public class BurgerBuilder extends MenuItemBuilder{
     }
 
 
-    public void addBun(String bun){
+    public void addBun(String bun) {
         this.bun = bun;
     }
 
-    public void addMeat(String meat){
+    public void addMeat(String meat) {
         this.meat = meat;
     }
 
-    public void addSalad(String salad){
+    public void addSalad(String salad) {
         this.salad = salad;
     }
 
-    public void addCheese(String cheese){
+    public void addCheese(String cheese) {
         this.cheese = cheese;
     }
 

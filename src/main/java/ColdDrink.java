@@ -1,5 +1,3 @@
-import jdk.nashorn.internal.runtime.OptimisticReturnFilters;
-
 public class ColdDrink extends MenuItem {
     private String size;
     private String drink;
