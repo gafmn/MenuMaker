@@ -48,12 +48,15 @@ public class Tests {
     }
 
     @Test
-    public void test1() {
+    public void createOrder() {
+
+        Integer itemsCount = 2;
+
         Order order = new Order();
         order.addItem(createBurger());
         order.addItem(createColdDrink());
 
-        assertEquals((int)order.getItemsAmount(), 2);
+        assertEquals(order.getItemsAmount(), itemsCount);
     }
 
 }
